@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* General Background Color */
+body {
+    background-color: #f8f9fa; /* Light grayish white background */
+    font-family: 'Montserrat', sans-serif; /* Clean and modern font */
+    color: #333333; /* Dark gray text color for content */
+    margin: 0;
+    padding: 0;
+}
+
+/* Streamlit Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: #eeeeee; /* Dark blue sidebar background */
+    color: #000000; /* White text color */
+    font-family: 'Montserrat', sans-serif; /* Match sidebar font to main body */
+}
+
+/* Header Logo Styling */
+header {
+    background-color: #ffffff; /* White header background */
+    padding: 10px;
+    border-bottom: 2px solid #ddd; /* Light border under the header */
+}
+
+header img {
+    display: block;
+    margin: auto;
+    width: 150px; /* Adjust logo size */
+}
+
+/* Button Styling */
+button {
+    background-color: #f87979 !important; /* Red buttons */
+    color: white !important; /* White button text */
+    border-radius: 10px; /* Rounded corners for buttons */
+    font-weight: bold; /* Bold button text */
+}
+
+/* Links Styling */
+a {
+    color: #007bff; /* Blue for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue for hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main Content Styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #2b3e50; /* Dark blue for headings */
+}
+
+p, label, span {
+    color: #333333; /* Gray for general text */
+}
+
+/* Input Field Styling */
+textarea, input, select {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2b3e50; /* Match sidebar background */
+    color: white; /* White footer text */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
